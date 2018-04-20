@@ -54,6 +54,7 @@ margin: 0%;
   border: 2px Solid yellow;
   padding-top: 1%;
   width: 100%;
+  marigin-bottom:0%;
 }
 .img {
   display: block;
