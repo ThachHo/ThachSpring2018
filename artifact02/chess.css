@@ -44,17 +44,17 @@ margin: 0%;
   float:left;
 }
 #container {
-  margin-top:9.5%;
+  margin-top:15%;
   margin-left:18%;
   margin-right:8%;
-  margin-bottom:5%;
+  margin-bottom:10%;
 }
 #footer {
   background-color: #818480;
   border: 2px Solid yellow;
   padding-top: 1%;
   width: 100%;
-  marigin-bottom:0%;
+  
 }
 .img {
   display: block;
