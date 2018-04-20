@@ -1,7 +1,7 @@
 html, body{
 margin: 0%;
 }
-body {
+#image {
   background-image: url("skyspacedarkgalaxy.jpg");
   }
 #title {
@@ -44,7 +44,7 @@ body {
   float:left;
 }
 #container {
-  margin-top:10%;
+  margin-top:9.5%;
   margin-left:18%;
   margin-right:8%;
   margin-bottom:5%;
