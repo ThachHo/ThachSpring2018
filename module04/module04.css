@@ -1,0 +1,70 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  text-align: center;
+}
+h1 {
+  font-family: 'DancingScriptRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 5em;
+}
+body {
+width: 100%;
+}
+#image { 
+background-image: url("sunset.jpg");
+background-repeat:no-repeat;
+height: 100%; 
+background-position: center;
+background-size: cover;
+}
+#content {
+overflow: auto;
+}
+#nav, #footer {
+margin: 10%;
+}
+
+.column1, .column2, .column3 {
+
+width: 31.3%;
+float: left;
+margin: 1%; 
+}
+.column1 {
+background-color: lightgreen;
+}
+.column2 {
+  background-color: red;  
+}
+.column3 {
+  background-color: deepskyblue;
+}
+
+li {
+display: inline;
+padding: 0.5em;
+}
+#nav { background-color: yellow;
+padding: 0.5em 0;
+}
+#footer {
+background-color: aqua;
+padding: 0.5em 0;
+}
+#feature,.article {
+height: 10em;
+margin-bottom: 1em;
+}
+#feature {
+  background-image : url("sunrise.jpg");
+  background-position: right;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+p {
+  color:black;  
+}
