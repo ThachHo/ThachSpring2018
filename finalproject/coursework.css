@@ -1,0 +1,45 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+  html {
+  height: 100%;
+  width:100%;
+}
+
+h1 {
+  font-family: 'DancingScriptRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 5em;
+  color: blue;
+}
+li {
+  display: inline;
+  padding: 0.5em;
+  font-size: 20px;
+}
+a {
+  color:lightblue;
+}
+
+#nav { background-color: transparent;
+  padding-bottom: 20px;
+}
+#footer {
+  background-color: transparent;
+  color:blue;
+}
+p {
+  color: green;
+  font-size: 20px;
+}
+span {
+  color:green;
+}
+body {
+  background-image: url(coursework.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

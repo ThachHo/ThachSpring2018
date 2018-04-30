@@ -1,0 +1,43 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: lightblue;
+  text-align: center;
+  font-size: 20px;
+}
+html {
+  height: 100%;
+  width:100%;
+}
+h1 {
+  font-family: 'DancingScriptRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 5em;
+  color: blue;
+}
+
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+#nav { background-color: transparent;
+  padding-bottom: 10%;
+}
+#footer {
+  background-color: transparent;
+  padding-top: 10%;
+}
+span{
+  color: black;
+  font-size: 30px;
+}
+p {
+  color:blue;  
+}
+body {
+  background-image: url(astronomy.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
