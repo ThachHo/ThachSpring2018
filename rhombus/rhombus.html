@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rhombus</title>
+    <link rel="stylesheet" type="text/css" href="rhombus.css">
+  </head>
+  <body>
+    <h1>Rhombus</h1>
+    <label>Enter a Character: </label><br>
+    <input id ="pSymbol" type="text" value="*"><br>
+    <label>Enter a Number: </label><br>
+    <input id ="pLines" type="number" value="10"><br>
+    <label>Choose color for Even: </label><br>
+    <select id ="colorEven">
+      <option value="#40ff00">Green</option>
+      <option value="#ff0000">Red</option>
+      <option value="#0040ff">Blue</option>
+    </select><br>
+    <label>Choose color for Odd:
+    </label><br>
+    <select id ="colorOdd">
+      <option value="#cc00cc">Purple</option>
+      <option value="#ffff00">Yellow</option>
+      <option value="#ff9900">Orange</option>
+    </select><br>
+    <button onclick="createRhombus(document.getElementById('pLines').value,document.getElementById('colorEven').value,document.getElementById('colorOdd').value,document.getElementById('pSymbol').value);">Create Rhombus</button>
+    <hr>
+    <div id="upLeft"></div>
+    <div id="upRight"></div>
+     <div class="clear"></div>
+    <div id="downLeft"></div>
+    <div id="downRight"></div>
+    <script src="rhombus.js"></script>
+  </body>
+</html>
