@@ -75,7 +75,8 @@
    if(validCountry === "USA" ) 
       {
         if (validzipcode === null ||  validzipcode==="" || !validzipcode.match(numbers))
-     errorMessages +="<p>The zipcode must be United States and can only input numbers </p>";}
+     errorMessages +="<p>The zipcode must be United States and can only input numbers </p>";
+      else validZipcode = true}
        else 
        validZipcode= true
   
