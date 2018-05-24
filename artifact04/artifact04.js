@@ -72,7 +72,7 @@
    else
      vaildcountry = true;
    var vaildzipcode = document.getElementById("zipcode").value;
-  if(vaildCountry === "Canada" || vaildcountry === "Mexico" || vaildzipcode === null || !vaildzipcode.match(numbers))
+   if(vaildcountry === "Canada" || vaildcountry === "Mexico" || vaildzipcode === null  || vaildzipcode==="" || !vaildzipcode.match(numbers))
      errorMessages +="<p>The zipcode must be United States and can only input numbers </p>";
        else 
        vaildzipcode = true
