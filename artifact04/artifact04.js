@@ -32,32 +32,32 @@
     if (atpos< 1 || dotpos<atpos + 2 || dotpos + 2>=vaildemail.length) 
       errorMessages +="<p>Not a valid email</p>";
   else
-    validemail=true;
+    validEmail=true;
   // var phone
    var validphone = document.getElementById("phone").value;
     if (validphone.length >15 || validphone===null || validphone==="" || !validphone.match(numbers))
      //send error message. For example errorMessages = "<p>Invalid phone number </p>";
      errorMessages += "<p>Invalid phone number and can only input numbers </p>";
      else
-       validphone = true;
-       
+       validPhone = true;
+       // usernames
   var validuserName = document.getElementById("username").value;
   if (validuserName===null || validuserName==="" || validuserName.length > 12)
     errorMessages +="<p>The Username must be entered and must be less than  12 characters</p>";
   else
-    validuserName = true;
+    validUsername  = true;
   // password
   var validpassWord = document.getElementById("password").value;
   if (validpassWord===null || validpassWord==="" || validpassWord.length > 7)
     errorMessages +="<p>The Password must be entered and must be less than  7 characters</p>";
   else
-    validpassWord = true;
+    validPassword = true;
   // address
   var validaddress = document.getElementById("address").value;
   if (validaddress==null || validaddress==="")
     errorMessages +="<p>The address must be entered </p>";
   else
-    validaddress = true;
+    validAddress = true;
   // City 
    var validcity = document.getElementById("city").value;
    if (validcity===null || validcity==="")
@@ -72,7 +72,7 @@
      validCountry = true;
    //zipcode
    var validzipcode = document.getElementById("zipcode").value;
-   if(validCountry === "USA" ) 
+   if(countries === "USA" ) 
       {
         if (validzipcode === null ||  validzipcode==="" || !validzipcode.match(numbers))
      errorMessages +="<p>The zipcode must be United States and can only input numbers </p>";
@@ -82,6 +82,6 @@
   
   document.getElementById("errorMessages").innerHTML = errorMessages;
   // Make sure you return all the boolean variables that are checking each field
-   return (validFirstname && validLastname && validemail && validphone && validuserName && validpassWord && validddress && validCity && validCountry && validZipcode) ;
+   return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword && validAddress && validCity && validCountry && validZipcode) ;
   
 }
