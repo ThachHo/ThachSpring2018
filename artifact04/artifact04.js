@@ -21,60 +21,60 @@
     validFirstname = true;
 // var last name
   var lastName = document.getElementById("lastname").value;
-   if (lastName===null || lastName==="" || lastName.length>= 50 || !lastName.match(letters))
+   if (lastName===null || lastName=="" || lastName.length>= 50 || !lastName.match(letters))
      errorMessages +="<p>The Lastname must be entered and must be less than 50 characters. Only letters are accepted</p>";
   else
   validLastname = true;
   // var email
   var validemail = document.getElementById("email").value;
-    var atpos = vaildemail.indexOf("@");
-    var dotpos = vaildemail.lastIndexOf(".");
-    if (atpos< 1 || dotpos<atpos + 2 || dotpos + 2>=vaildemail.length) 
+    var atpos = validemail.indexOf("@");
+    var dotpos = validemail.lastIndexOf(".");
+    if (atpos< 1 || dotpos<atpos + 2 || dotpos + 2>=validemail.length) 
       errorMessages +="<p>Not a valid email</p>";
   else
     validEmail=true;
   // var phone
    var validphone = document.getElementById("phone").value;
-    if (validphone.length >15 || validphone===null || validphone==="" || !validphone.match(numbers))
+    if (validphone.length >15 || validphone===null || validphone=="" || !validphone.match(numbers))
      //send error message. For example errorMessages = "<p>Invalid phone number </p>";
-     errorMessages += "<p>Invalid phone number and can only input numbers </p>";
+     errorMessages += "<p>Invalid phone number and can only input numbers</p>";
      else
        validPhone = true;
        // usernames
   var validuserName = document.getElementById("username").value;
-  if (validuserName===null || validuserName==="" || validuserName.length > 12)
+  if (validuserName===null || validuserName=="" || validuserName.length > 12)
     errorMessages +="<p>The Username must be entered and must be less than  12 characters</p>";
   else
     validUsername  = true;
   // password
   var validpassWord = document.getElementById("password").value;
-  if (validpassWord===null || validpassWord==="" || validpassWord.length > 7)
+  if (validpassWord===null || validpassWord=="" || validpassWord.length > 7)
     errorMessages +="<p>The Password must be entered and must be less than  7 characters</p>";
   else
     validPassword = true;
   // address
   var validaddress = document.getElementById("address").value;
-  if (validaddress==null || validaddress==="")
-    errorMessages +="<p>The address must be entered </p>";
+  if (validaddress==null || validaddress=="")
+    errorMessages +="<p>The address must be entered</p>";
   else
     validAddress = true;
   // City 
    var validcity = document.getElementById("city").value;
-   if (validcity===null || validcity==="")
-     errorMessages +="<p>The City must be entered </p>";
+   if (validcity===null || validcity=="" || validcity.match(letters))
+     errorMessages +="<p>The City must be entered and only letters are accepted</p>";
    else
      validCity = true;
    //Country
    var validcountry = document.getElementById("countries").value;
    if (validcountry !="USA")
-     errorMessages +="<p>The Country  must be United States </p>";
+     errorMessages +="<p>The Country  must be United States</p>";
    else
      validCountry = true;
    //zipcode
    var validzipcode = document.getElementById("zipcode").value;
    if(countries === "USA" ) 
       {
-        if (validzipcode === null ||  validzipcode==="" || !validzipcode.match(numbers))
+        if (validzipcode === null ||  validzipcode=="" || !validzipcode.match(numbers) || validzipcode.length > 5)
      errorMessages +="<p>The zipcode must be United States and can only input numbers </p>";
       else validZipcode = true}
        else 
