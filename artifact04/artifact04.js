@@ -60,7 +60,7 @@
     validAddress = true;
   // City 
    var validcity = document.getElementById("city").value;
-   if (validcity===null || validcity=="" || validcity.match(letters))
+   if (validcity===null || validcity=="" || !validcity.match(letters))
      errorMessages +="<p>The City must be entered and only letters are accepted</p>";
    else
      validCity = true;
