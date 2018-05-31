@@ -1,0 +1,30 @@
+h1{
+ text-align: center; 
+  font-family: 'WaltographRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 40px;
+} 
+h2{
+  text-align: center;
+  font-family: 'WaltographRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 30px;
+}
+
+ul#list {
+  list-style-type:none;
+  text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+body{
+  background-color: aqua;
+}
+li{ font-size: 20px;
+}
