@@ -24,12 +24,12 @@ details2 += parkHotel.checkAvailability();
 var elHotel2 = document.getElementById('hotel2');
 elHotel2.textContent = details2;
 
-var details3 = SunsetHotel.name +'rooms:';
+var details3 = SunsetHotel.name + 'rooms: ';
 details3 +=
 SunsetHotel.checkAvailability();
  var elHotel3 =
 document.getElementById('hotel3');
-elHotel3.textContent=details3;
+elHotel3.textContent = details3;
 
 /* 
 NOTE: textContent does not work in IE8 or earlier
